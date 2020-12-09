@@ -788,7 +788,16 @@ footer a {
 
     .section4-form {
         width: 300px;
-        
     }
 
+}
+
+@media (max-width: 415px){ 
+    .container {
+        width: 100%;
+    }
+
+    .header-logo {
+        margin-right: 200px;
+    }
 }
