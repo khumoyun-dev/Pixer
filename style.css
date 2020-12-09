@@ -562,9 +562,33 @@ footer a {
 }
 
 @media (max-width: 530px) {
-    .header-ul {
-        display: none;
+    .container {
+        width: 500px;
     }
+
+    .header-ul {
+        position: absolute;
+        top: -1000px;
+        left: 0;
+        width: 1px;
+        height: 1px;
+        font-size: 1px;
+        color: white;
+    }
+
+    /* .header-li {
+        width: 1px;
+        height: 1px;
+        font-size: 1px;
+        color: white;
+    }
+
+    .header-li a{
+        width: 1px;
+        height: 1px;
+        font-size: 1px;
+        color: white; 
+    } */
 
     .header-logo {
         width: auto;
@@ -572,8 +596,8 @@ footer a {
     }
 
     .header-phone {
-        font-size: 18px;
         transform: translateX(-50px);
+        font-size: 12px;
     }
 
     .section1-text {
@@ -652,8 +676,119 @@ footer a {
     .section1-title {
         font-size: 16px;
     }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 480px;
+    }
+
+    iframe {
+        margin-top: 25px;
+        width: 300px;
+        height: 190px;
+    }
+
+    .section2-text {
+        width: 320px;
+    }
+
+    .section1-text {
+        width: 320px;
+    }
+
+    .section4-text {
+        width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section3-text {
+        width: 320px;
+    }
+
+    .section3-li {
+        flex-direction: column;
+    }
 
     .header-phone {
+        transform: translateX(-50px);
+    }
+
+    .media {
+        margin-left: 55px;
+    }
+
+    .sites {
+        margin-top: 25px;
+    }
+
+    input {
+        width: 220px;
+    }
+
+    .link2 {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .section2-links {
+        flex-direction: column;
+        width: 280px;
+    }
+
+    .section1-title {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    .container {
+        width: 100%;
+    }
+
+    .section1-title, .section3-title, .section2-title, .section4-title {
+        width: 300px;
+        font-size: 22px;
+        margin: 0 auto;
+    }
+
+    .section1-text {
         font-size: 12px;
     }
+
+    .header-logo {
+        margin-right: 230px;
+    }
+
+    .section1-wrapper {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .section2-ul {
+        width: 400px;
+    }
+
+    .section1-text-part {
+        width: 100%;
+    }
+
+    .header-nav {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .section4-input {
+        width: 250px;
+    }
+
+    .section4-form {
+        width: 300px;
+        
+    }
+
 }
