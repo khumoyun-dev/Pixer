@@ -800,4 +800,16 @@ footer a {
     .header-logo {
         margin-right: 200px;
     }
+
+    .section1-wrapper {
+        width: 100%;
+    }
+
+    .section1-text-part {
+        width: 100%;
+    }
+
+    .section2-ul {
+        width: 100%;
+    }
 }
