@@ -618,6 +618,14 @@ footer a {
     .section1 {
         padding-top: 100px;
     }
+
+    .section2-links {
+        flex-direction: column;
+    }
+
+    .link1 {
+        margin-bottom: 15px;
+    }
 }
 
 @media (max-width: 360px) {
