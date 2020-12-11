@@ -140,7 +140,7 @@ nav {
 .section2-ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     min-height: 570px;
     margin-bottom: 50px;
 }
