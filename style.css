@@ -633,13 +633,22 @@ footer a {
         width: 300px;
     }
 
+    .header-nav {
+        width: 95%;
+    }
+
+    nav {
+        width: 100vw;
+    }
+
     .header-logo {
         width: 50px;
+        margin-right: 15px;
     }
 
     .header-phone {
         padding: 5px 7px;
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .section1 {
@@ -678,8 +687,20 @@ footer a {
     }
 
     .section4-form {
-        width: 300px;
+        width: 280px;
         min-height: 250px;
+    }
+
+    .section2-li {
+        width: 280px;
+    }
+
+    .section2-links {
+        width: 290px;
+    }
+
+    .section4-text, .text, .section2-title, .section1-video-part, .section1-text-part, .section4-title, .footer-wrapper {
+        width: 280px;
     }
 
     .section4-input {
