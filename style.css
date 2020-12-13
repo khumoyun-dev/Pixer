@@ -341,6 +341,7 @@ footer {
 }
 
 .media-icon p {
+    vertical-align: middle;
     display: inline-block;
     margin-left: 8px;
     font-size: 16px;
@@ -362,7 +363,7 @@ footer a {
     .section1-subtext {
         width: 80%;
     }
-    
+
 }
 
 @media (max-width: 1060px) {
@@ -471,7 +472,9 @@ footer a {
         width: 300px;
     }
 
-    .media-icon p, .sites-li a, .copyright-subtext {
+    .media-icon p,
+    .sites-li a,
+    .copyright-subtext {
         font-size: 14px;
     }
 }
@@ -583,7 +586,8 @@ footer a {
         font-size: 28px;
     }
 
-    .section1-subtext, .text {
+    .section1-subtext,
+    .text {
         font-size: 14px;
     }
 
@@ -633,11 +637,12 @@ footer a {
         width: 320px;
     }
 
-    .header-nav {
-        width: 95%;
+    * {
+        border: 1px solid red;
+
     }
 
-    nav {
+    .header-nav {
         width: 100%;
     }
 
@@ -677,7 +682,8 @@ footer a {
         flex-direction: column;
     }
 
-    .link1, .blue {
+    .link1,
+    .blue {
         font-size: 12px;
         padding: 5px 7px;
     }
@@ -689,6 +695,14 @@ footer a {
     .section4-form {
         width: 280px;
         min-height: 250px;
+    }
+
+    .section1-iframe {
+        height: 200px;
+    }
+
+    .section1-video-part {
+        width: 90%;
     }
 
     .section1-text-part {
@@ -717,7 +731,9 @@ footer a {
         text-align: center;
     }
 
-    .copyright-text, .sites-title, .media-title {
+    .copyright-text,
+    .sites-title,
+    .media-title {
         font-size: 12px;
     }
 
@@ -725,7 +741,8 @@ footer a {
         font-size: 10px;
     }
 
-    .sites-li a, i p {
+    .sites-li a,
+    i p {
         font-size: 12px;
     }
 }
@@ -739,7 +756,8 @@ footer a {
         width: 100%;
     }
 
-    .section2-title, .section4-title {
+    .section2-title,
+    .section4-title {
         width: 100%;
     }
 }
