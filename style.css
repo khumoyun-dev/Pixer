@@ -628,9 +628,9 @@ footer a {
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 425px) {
     .container {
-        width: 300px;
+        width: 320px;
     }
 
     .header-nav {
@@ -691,8 +691,12 @@ footer a {
         min-height: 250px;
     }
 
+    .section1-text-part {
+        width: 85%;
+    }
+
     .section2-li {
-        width: 280px;
+        width: 250px;
     }
 
     .section2-links {
@@ -709,7 +713,7 @@ footer a {
     }
 
     .section3-text-wrapper {
-        width: 100%;
+        width: 90%;
         text-align: center;
     }
 
