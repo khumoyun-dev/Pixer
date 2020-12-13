@@ -628,7 +628,7 @@ footer a {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 420px) {
     .container {
         width: 300px;
     }
@@ -638,12 +638,12 @@ footer a {
     }
 
     nav {
-        width: 100vw;
+        width: 100%;
     }
 
     .header-logo {
         width: 50px;
-        margin-right: 15px;
+        margin-right: 45px;
     }
 
     .header-phone {
@@ -695,12 +695,8 @@ footer a {
         width: 280px;
     }
 
-    .section2-links, .section1-wrapper {
+    .section2-links {
         width: 290px;
-    }
-
-    .section4-text, .text, .section2-title, .section1-video-part, .section1-text-part, .section4-title, .footer-wrapper {
-        width: 280px;
     }
 
     .section4-input {
@@ -727,5 +723,19 @@ footer a {
 
     .sites-li a, i p {
         font-size: 12px;
+    }
+}
+
+@media (max-width: 385px) {
+    .container {
+        width: 90%;
+    }
+
+    .section1-wrapper {
+        width: 100%;
+    }
+
+    .section2-title, .section4-title {
+        width: 100%;
     }
 }
