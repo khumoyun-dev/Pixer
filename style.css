@@ -14,13 +14,15 @@
     /* border: 1px solid red; */
 }
 
-nav {
-    height: 56px;
+.header {
     width: 100%;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
     position: fixed;
     background-color: white;
     z-index: 999;
+}
+
+nav {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .header-nav {
@@ -28,6 +30,7 @@ nav {
     height: 100%;
     display: flex;
     align-items: center;
+    padding: 20px 0;
     /* border: 1px solid red; */
 }
 
@@ -400,10 +403,6 @@ footer a {
         margin-top: 15px;
     }
 
-    nav {
-        height: 90px;
-    }
-
     .header-nav {
         flex-wrap: wrap;
         justify-content: center;
@@ -560,6 +559,10 @@ footer a {
 
     nav {
         height: 56px;
+    }
+
+    .header-nav {
+        justify-content: center;
     }
 
     .header-ul {
