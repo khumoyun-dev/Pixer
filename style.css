@@ -636,6 +636,10 @@ footer a {
 }
 
 @media (max-width: 425px) {
+    body {
+        overflow: hidden;
+    }
+    
     .container {
         width: 320px;
     }
