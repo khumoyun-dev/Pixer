@@ -10,19 +10,14 @@
 .container {
     width: 1140px;
     margin: 0 auto;
-    height: 100%;
-    /* border: 1px solid red; */
-}
-
-.header {
-    width: 100%;
-    position: fixed;
-    background-color: white;
-    z-index: 999;
 }
 
 nav {
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 999;
 }
 
 .header-nav {
@@ -636,10 +631,6 @@ footer a {
 }
 
 @media (max-width: 425px) {
-    body {
-        overflow: hidden;
-    }
-    
     .container {
         width: 320px;
     }
@@ -695,7 +686,7 @@ footer a {
     }
 
     .section4-form {
-        width: 280px;
+        max-width: 280px;
         min-height: 250px;
     }
 
