@@ -128,6 +128,9 @@ nav {
 .section2 {
     text-align: center;
     margin-bottom: 50px;
+}
+
+.section2-ul, .section2 .container {
     overflow-y: hidden;
 }
 
@@ -191,6 +194,10 @@ nav {
 .section3 {
     text-align: center;
     padding: 50px 0;
+}
+
+.section3 .container, .section3-ul {
+    overflow-y: hidden;
 }
 
 .section3-ul {
