@@ -5,6 +5,7 @@
     text-decoration: none;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 .container {
@@ -127,6 +128,7 @@ nav {
 .section2 {
     text-align: center;
     margin-bottom: 50px;
+    overflow-y: hidden;
 }
 
 .text {
