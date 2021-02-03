@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    text-decoration: none;
+    text-decoration: none!important;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
@@ -44,6 +44,7 @@ nav {
     align-items: center;
     width: 550px;
     justify-content: space-between;
+    margin-bottom: 0;
 }
 
 .header-li {
@@ -68,9 +69,9 @@ nav {
     outline: none;
     font-size: 15px;
     font-weight: 700;
-    color: white;
+    color: white!important;
     padding: 10px 16px;
-    background-color: #00BAFC;
+    background-color: #00BAFC!important;
     border-radius: 5px;
 }
 
@@ -83,7 +84,8 @@ nav {
 }
 
 .blue:hover {
-    background-color: #008cff;
+    color: white!important;
+    background-color: #008cff!important;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -176,7 +178,7 @@ nav {
 
 .link2 {
     display: block;
-    color: #00BAFC;
+    color: #00BAFC!important;
     text-decoration: underline;
     transition: transform ease 0.15s, text-shadow ease 0.1s;
 }
@@ -344,6 +346,7 @@ footer {
     display: inline-block;
     margin-left: 8px;
     font-size: 16px;
+    margin-bottom: 0;
 }
 
 footer a {
